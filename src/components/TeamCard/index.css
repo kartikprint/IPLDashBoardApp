@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.latest-card {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+.team-img {
+  height: 100px;
+  width: 100px;
+}
+.ipl-team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  min-height: 100px;
+}
+.header1 {
+  font-size: 22px;
+  font-family: 'Bree Serif';
+  color: white;
+}
+.link-item {
+  text-decoration: none;
+  width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .team-card {
+    padding: 20px 30px 20px 30px;
+    min-height: 150px;
+  }
+}

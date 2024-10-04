@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.recent-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f172a;
+  border-radius: 10px;
+  width: 440px;
+  height: 309px;
+  margin: 20px 13px 11px 10px;
+  padding: 10px;
+}
+.img-1 {
+  height: 80px;
+  width: 80px;
+}
+.header-1 {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+.header {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+.para {
+  color: white;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+.Won {
+  color: #18ed66;
+}
+
+.Lost {
+  color: #e31a1a;
+}
